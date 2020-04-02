@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body{
+    background-image: url(bg1.jpg), url(bg2.jpg), url(bg3.jpg), url(bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: 15%, 15%, 15%, 15%;
+    background-position: left -1% top -15%, right -7.5% top -1%, left -5% bottom -10%, right -5% bottom -5%;
+    background-color: #062863;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width:100%;
+}
+
+div.logo{
+    position: relative;
+    align-content: center;
+    margin: 2.7rem;
+}
+
+.header{
+    margin: 0rem 0rem 2rem 0rem; 
+}
+
+h1 {
+    color: #083e9e;
+    font-family: U8, sans-serif;
+    font-size: 30px;
+}
+
+.h1-p{
+    color: #4a5568;
+    font-family: 'Karla', sans-serif;
+    font-size: 17.5px;
+}
+
+
+div.form {
+    background-color: 
+    #ffffff;
+    color:  #4a5568;
+    padding: 3.125rem 3.125rem 3.75rem;
+    
+    width: 30vw;
+    
+    margin: auto;
+    text-align: center;
+    
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+
+}
+
+.form-items{
+    text-align: start;
+    margin: 1.5rem 0rem;
+    font: 15px U8, sans-serif;
+    font-weight: bold;
+
+}
+
+
+    
+
+.input-box{
+    color: rgb(51, 48, 48);
+    background-color: rgb(237,242,247);
+    padding: 20px;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 7px;
+    border-style: none;
+}
+
+#options{
+    padding: 10px;
+}
+
+.btn{
+    color: white;
+    background-color: #083e9e;
+    padding: 25px 50px 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+
+}
+
+button{
+    color: white;
+    background-color: #083e9e;
+    border-style: none;
+    font: 17.5px sans-serif;
+    font-weight: bold;
+    
+    
+}
+
+.footer{
+    margin: 2.5rem 0rem;
+    color: #ffffff;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+@media screen and (min-width: 1000px){
+
+    div.form {
+        width: 550px;
+        
+    }
+}
